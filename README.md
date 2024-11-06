@@ -13,8 +13,8 @@ This is a simple web dev capstone portfolio project of mine. This consists of on
 
 ### Links
 
-- Solution URL: [GitHub Repo](https://github.com/syntherat/frontendmentor-social-links-profile-challenge-2)
-- Live Site URL: [GitHub Pages](https://syntherat.github.io/frontendmentor-social-links-profile-challenge-2/)
+- Repository URL: [GitHub Repo](https://github.com/syntherat/capstone-portfolio)
+- Live Site URL: [GitHub Pages](https://syntherat.github.io/capstone-portfolio/)
 
 ## My process
 
