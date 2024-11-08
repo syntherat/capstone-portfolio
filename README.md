@@ -22,6 +22,5 @@ This is a simple web dev capstone portfolio project of mine. This consists of on
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
+- Flexbox   
 - CSS Grid
-# capstone-portfolio

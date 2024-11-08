@@ -1,3 +1,8 @@
+body{
+    background-color: #decdbb;
+    margin: 0;
+}
+
 .top-container{
     display: block;
     text-align: center;
@@ -23,21 +28,16 @@ h1{
     color: #6d5b47;
 }
 
-body{
-    background-color: #decdbb;
-    margin: 0;
-}
-
 .images{
-    display: flex;
-    justify-content: center;
     padding-bottom: 0px;
     padding-top: 100px;
 }
 
 .video-edit{
     height: 80px;
-    padding-right: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .code {
@@ -218,4 +218,439 @@ button:hover{
     font-style: normal;
     margin-top: -5px;
     line-height: 32.5px;
+}
+
+@media(min-width: 319px) and (max-width: 751px){
+    .top-container{
+        padding: 30px;
+    }
+
+    h1{
+        font-size: 1.6rem;
+    }
+    
+    .video-edit{
+        height: 40px;
+    }
+
+    .images {
+        padding-top: 80px;
+    }
+
+    .designation{
+        font-size: 0.7rem;
+        padding-top: 10px;
+    }
+
+    .separator {
+        font-size: 0.7rem;
+        padding-top: 20px;
+    }
+
+    .portfolio-txt {
+        font-size: 10px;
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    .middle-container{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .skills {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+    }
+
+
+    .grid-divs > img {
+        height: 130px;
+    }
+
+    .skills-head{
+        text-align: center;
+    }
+
+    .skills-desc {
+        text-align: justify;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    hr {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    h2{
+        font-size: 1.8rem;
+    }
+
+    h3{
+        font-size: 13px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .contact-txt{
+        font-size: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+    }
+
+    .bottom-container{
+        padding: 40px;  
+        padding-left: 30px;
+        padding-right: 30px;  
+    }
+
+    .copyright{
+        padding-top: 15px;
+    }
+
+    .footer-link{
+        font-size: 17px;
+        padding: 5px;
+    }
+
+    .my-image{
+        height: 115px;
+        width: 115px;
+    }
+
+
+
+    .about-me{
+        font-size: 15px;
+        margin-top: 0;
+        padding-left: 35px;
+        padding-right: 35px;
+        text-align: center;
+    }
+
+
+}
+
+@media(min-width: 751px) and (max-width: 1200px){
+    .top-container{
+        padding: 70px;
+    }
+
+    h1{
+        font-size: 3.4rem;
+    }
+
+    .designation{
+        font-size: 1.2rem;
+        padding-top: 5px;
+    }
+
+    .separator{
+        font-size: 1.7rem;
+        padding-top: 15px;
+    }
+
+    .video-edit{
+        padding-top: 0px;
+        height: 60px;
+    }
+
+    .images {
+        padding-top: 50px;
+    }
+
+    .portfolio-txt{
+        font-size: 13px;
+    }
+
+    .my-image{
+        height: 140px;
+        width: 140px;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    .about-me{
+        font-size: 16px;
+    }
+
+    hr{
+        margin-top: 65px;
+        margin-bottom: 65px;
+    }
+
+    .grid-divs > img {
+        height: 130px;
+    }
+
+    .skills-desc {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .skills-head{
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    .contact-txt{
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 17px;
+    }
+}
+
+@media(min-width: 1201px) and (max-width: 1600px){
+    h1{
+        font-size: 6.3rem;
+    }
+
+    .designation{
+        font-size: 1.7rem;
+    }
+
+    .separator{
+        font-size: 2.3rem;
+    }
+
+    .portfolio-txt{
+        font-size: 16px;
+    }
+
+    .video-edit{
+        height: 70px;
+    }
+}
+
+@media(min-width: 1601px){
+    .top-container{
+        display: block;
+        text-align: center;
+        margin-top: 0;
+        padding: 100px;
+        position: relative;
+    }
+    
+    @font-face {
+        font-family: horizon;
+        src: url("./assets/horizon.otf");
+    }
+    
+    h1{
+        color: white;
+        font-family: horizon;
+        font-size: 8rem;
+        padding-top: 0px;
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    .pal{
+        color: #6d5b47;
+    }
+    
+    .images{
+        padding-bottom: 0px;
+        padding-top: 100px;
+    }
+    
+    .video-edit{
+        height: 80px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .code {
+        height: 90px;
+        margin-top: -5px;
+    }
+    
+    .designation {
+        margin-top: -15px;
+        padding-top: 0;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        font-size: 2rem;
+    }
+    
+    .separator {
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: #6d5b47;
+        font-size: 3rem;
+        padding-top: 50px;
+    }
+    
+    .portfolio-txt {
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: #6d5b47;
+        text-align: left;
+        font-size: 20px;
+        padding-top: 70px;
+        padding-bottom: 0px;
+        margin-bottom: 0;
+    }
+    
+    .portfolio-txt > span {
+        font-weight: 700;
+    }
+    
+    .middle-container {
+        display: block;
+        background-color: #f4eee8;
+        position: relative;
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    .my-image {
+        height: 175px;
+        width: 175px;
+        border-radius: 50%;
+    }
+    
+    h2{
+        margin-top: 21px;
+        padding-top: 0px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 2.5rem;
+        color: #6d5b47;
+    }
+    
+    .about-me { 
+        font-size: 21px;
+        color: #3c3126;
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    hr {
+        border: dotted #d1d1d1 6px;
+        border-bottom: none;
+        width: 4%;
+        margin: 100px auto; 
+    }
+    
+    .skills{
+        display: grid;
+        padding-top: 0;
+        margin-top: 0;
+        grid-template-columns: 0.5fr 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        gap: 20px;
+        width: 50%;
+        margin: 100px auto 0 auto;
+        align-items: center;
+    }
+    
+    .grid-divs > img {
+        height: 170px;
+    }
+    
+    .skills-head {
+        text-align: left;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 800;
+        font-size: 20px;
+        color: #6d5b47;
+    }
+    
+    h3 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 800;
+        font-size: 1.17em;
+        color: #6d5b47;
+    }
+    
+    .contact-txt {
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        padding-top: 25px;
+    }
+    
+    button {
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        padding: 10px;
+        margin-top: 35px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 10px;
+        border: none;
+        background: linear-gradient(180deg, rgba(109,91,71,1) 0%, rgba(83,61,37,1) 67%, rgba(43,25,4,1) 100%);
+        color: white;
+    
+    }
+    
+    button:hover{
+        background: #6d5b47;
+    }
+    
+    .bottom-container{
+        padding: 50px;
+        text-align: center;
+    }
+    
+    .footer-link{
+        text-decoration: none;
+        font-family: "Outfit", sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        color: #8c7a68;
+        padding: 25px;
+    }
+    
+    .footer-link:hover{
+        color: white;
+    }
+    
+    .copyright {
+        font-family: "Outfit", sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        font-style: normal;
+        color: #31271e;
+        padding-top: 25px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    
+    .skills-desc{
+        text-align: left;
+        font-family: "Outfit", sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        margin-top: -5px;
+        line-height: 32.5px;
+    }
 }
