@@ -269,21 +269,26 @@ button:hover{
 
     .grid-divs > img {
         height: 130px;
+        padding-top: 15px;
     }
 
     .skills-head{
         text-align: center;
+        margin-top: 10px;
     }
 
     .skills-desc {
         text-align: justify;
         font-size: 18px;
         line-height: 28px;
+        margin-bottom: 0;
     }
 
     hr {
         margin-top: 50px;
         margin-bottom: 50px;
+        width: 12%;
+
     }
 
     h2{
