@@ -1,0 +1,352 @@
+body {
+    background-color: #f4eee8;
+    margin: 0;
+}
+
+.navbar{
+    background-color: #decdbb;
+}
+
+.navbar-grid {
+    display: grid;
+    grid-template-columns: 0.25fr 1fr;
+    grid-template-rows: 1fr;
+    width: 30%;
+    align-items: center;
+}
+
+.name-logo{
+    text-decoration: none;
+    font-family: "horizon";
+    color: white;
+    display: inline-block;
+}
+
+.pal {
+    color: #6d5b47;
+}
+
+.home-icon{
+    width: 30px;
+    padding: 30px;
+    padding-left: 0px;
+    text-align: left;
+    padding-right: 0px;
+    margin-left: 50px;
+}
+
+h1 {
+    color: #45392b;
+    font-family: "Montserrat", sans-serif;
+    font-size: 5.5rem;
+    text-align: center;
+    padding-top: 35px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+h3 {
+    text-align: center;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    padding-bottom: 10px;
+}
+
+.contact-info {
+    text-align: left;
+    font-size: 23px;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+.contact{
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact > img {
+    height: 27px;
+}
+
+.ph-div{
+    padding-top: 15px;
+}
+
+.discord-icon{
+    padding-right: 7px;
+}
+
+.email-icon{
+    padding-right: 6px;
+}
+
+.phone-icon{
+    padding-right: 7px;
+}
+
+.end-msg {
+    text-align: center;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.footer {
+    background-color:#decdbb;
+    padding: 50px;
+    text-align: center;
+}
+
+.footer-link{
+    text-decoration: none;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    color: #8c7a68;
+    padding: 25px;
+}
+
+.footer-link:hover{
+    color: white;
+}
+
+.copyright {
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    color: #31271e;
+    padding-top: 25px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+@media(min-width: 319px) and (max-width: 750px){
+    h1{
+        font-size: 2.3rem;
+    }
+
+    .home-icon{
+        margin-left: 30px;
+    }
+
+    .name-logo{
+        font-size: 20px;
+    }
+
+    .navbar-grid{
+        width: 80%;
+        gap: 10px;
+    }
+
+    h3{
+        font-size: 17px;
+        padding: 0px 30px 0px 30px;
+    }
+
+    .contact-info{
+        font-size: 17px;
+    }
+
+    .end-msg{
+        font-size: 15px;
+        padding-bottom: 50px;
+    }
+
+    .footer{
+        padding-bottom: 100px;
+    }
+
+    .copyright{
+        padding-top: 20px;
+    }
+
+    .footer-link{
+        font-size: 17px;
+        padding: 5px;
+    }
+}
+
+@media(min-width: 751px) and (max-width: 1200px){
+    .navbar-grid{
+        gap: 10px;
+        width: 50%;
+    }
+
+    .name-logo{
+        font-size: 20px;
+    }
+
+    .home-icon{
+        margin-left: 35px;
+    }
+
+    h1{
+        font-size: 4rem;
+    }
+
+    h3{
+        font-size: 22px;
+    }   
+
+    .contact-info{
+        font-size: 20px;
+    }
+}
+
+@media(min-width: 1201px) and (max-width: 1600px){
+    .navbar-grid{
+        gap: 30px;
+    }
+}
+
+@media(min-width: 1601px) {
+    body {
+        background-color: #f4eee8;
+        margin: 0;
+    }
+    
+    .navbar{
+        background-color: #decdbb;
+    }
+    
+    .navbar-grid {
+        display: grid;
+        grid-template-columns: 0.25fr 1fr;
+        grid-template-rows: 1fr;
+        width: 30%;
+        align-items: center;
+    }
+    
+    .name-logo{
+        text-decoration: none;
+        font-family: "horizon";
+        color: white;
+        display: inline-block;
+    }
+    
+    .pal {
+        color: #6d5b47;
+    }
+    
+    .home-icon{
+        width: 30px;
+        padding: 30px;
+        padding-left: 0px;
+        text-align: left;
+        padding-right: 0px;
+        margin-left: 50px;
+    }
+    
+    h1 {
+        color: #45392b;
+        font-family: "Montserrat", sans-serif;
+        font-size: 5.5rem;
+        text-align: center;
+        padding-top: 35px;
+        margin-bottom: 20px;
+        font-weight: 400;
+    }
+    
+    h3 {
+        text-align: center;
+        font-family: "Outfit", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 27px;
+        padding-bottom: 10px;
+    }
+    
+    .contact-info {
+        text-align: left;
+        font-size: 23px;
+        font-family: "Outfit", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-weight: 400;
+        margin: 10px 0px;
+    }
+    
+    .contact{
+        padding-top: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .contact > img {
+        height: 27px;
+    }
+    
+    .ph-div{
+        padding-top: 15px;
+    }
+    
+    .discord-icon{
+        padding-right: 7px;
+    }
+    
+    .email-icon{
+        padding-right: 6px;
+    }
+    
+    .phone-icon{
+        padding-right: 7px;
+    }
+    
+    .end-msg {
+        text-align: center;
+        font-family: "Outfit", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        padding-top: 30px;
+        padding-bottom: 80px;
+    }
+    
+    .footer {
+        background-color:#decdbb;
+        padding: 50px;
+        text-align: center;
+    }
+    
+    .footer-link{
+        text-decoration: none;
+        font-family: "Outfit", sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        color: #8c7a68;
+        padding: 25px;
+    }
+    
+    .footer-link:hover{
+        color: white;
+    }
+    
+    .copyright {
+        font-family: "Outfit", sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        font-style: normal;
+        color: #31271e;
+        padding-top: 25px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+}
